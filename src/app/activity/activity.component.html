@@ -1,0 +1,10 @@
+<div class="activity-container">
+	<button (click)=(removeActivty(activity.id)) class="btn btn-outline-danger float-right" > Delete </button> 
+	<div>ACtivity name : {{ activity.name }}
+		<br>
+		<span>start date: {{ activity.expected_start_date | date }}</span>
+		<br>
+		<span>end date: {{ activity.expected_end_date | date }} </span>
+	</div>
+</div>
+
